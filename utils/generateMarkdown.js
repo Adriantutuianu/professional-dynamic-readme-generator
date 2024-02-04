@@ -9,7 +9,8 @@ function generateMarkdown(data) {
     license,
     contribution,
     tests,
-    questions,
+    githubUsername,
+    emailAddress,
   } = data;
 
   // Function to generate the license badge based on the chosen license
@@ -17,6 +18,11 @@ function generateMarkdown(data) {
     return `![License](https://img.shields.io/badge/license-${encodeURIComponent(
       license
     )}-blue.svg)`;
+  }
+
+  // Function to generate the GitHub profile link
+  function generateGitHubLink(username) {
+    return `[GitHub Profile](https://github.com/${username})`;
   }
 
   return `
@@ -60,7 +66,8 @@ function generateMarkdown(data) {
   
   ## *Questions*
   For any questions, please contact me:
-- Email: ${questions}
+- GitHub: ${generateGitHubLink(githubUsername)}
+- Email: ${emailAddress} (Feel free to reach out with any additional questions)
 `;
 }
 
