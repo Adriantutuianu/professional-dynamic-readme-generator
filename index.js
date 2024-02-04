@@ -3,6 +3,14 @@ const inquirer = require("inquirer");
 
 const generateMarkdown = require("./utils/generateMarkdown");
 
+// List of license choices
+const licenseChoices = [
+  "MIT",
+  "GNU GPLv3",
+  "Apache License 2.0",
+  "BSD 3-Clause License",
+];
+
 // array of questions for user
 const questions = [
   {
@@ -31,14 +39,10 @@ const questions = [
     name: "usage",
   },
   {
-    type: "input",
-    message: "What is the usage of this project?",
-    name: "usage",
-  },
-  {
-    type: "input",
+    type: "list",
     message: "What license do you need?",
     name: "license",
+    choices: licenseChoices,
   },
   {
     type: "input",
