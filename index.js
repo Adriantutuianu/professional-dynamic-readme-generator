@@ -17,6 +17,9 @@ const questions = [
     type: "input",
     message: "What is your project name?",
     name: "title",
+    validate: function (input) {
+      return input !== "" || "Please enter a project name.";
+    },
   },
   {
     type: "input",
