@@ -65,7 +65,20 @@ function writeToFile(fileName, data) {
 }
 
 // function to initialize program
-function init() {}
+function init() {
+  inquirer
+    .prompt(questions)
+    .then((userResponses) => {
+      //pass the userResponses to the generateMarkdown function.
+      const markdown = generateMarkdown(userResponses);
+      //specify the file name and write the file
+      writeToFile("Generated-README.md", markdown);
+      console.log("successfully generated Generated-README.md");
+    })
+    .catch((error) => {
+      console.log("Error generating Readme: ", error);
+    });
+}
 
 // function call to initialize program
 init();
