@@ -12,7 +12,7 @@ Inquirer Package Integration: Utilize the popular Inquirer package to collect us
 
 Time-Saving: Allow project creators to focus more on actual project development rather than spending excessive time on manual README creation.
 
-Here you can find a short video explaining the app functionality:
+Here you can find a short video explaining the app functionality: https://app.screencastify.com/v3/watch/8M5lMCK1APAM4wtoYRTf
 
 Here is the GitHub repository: https://github.com/Adriantutuianu/professional-dynamic-readme-generator
 
