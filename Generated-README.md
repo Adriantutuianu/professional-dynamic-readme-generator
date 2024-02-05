@@ -1,10 +1,10 @@
 
-  # *fadha*
+  # *Test Project*
 
   ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## *Description*
-  hsfhasfh
+  TEST TEST TEST
 
   
   ## *Table of Contents*
@@ -17,11 +17,11 @@
 
   
   ## *Installation* <a name="installation"></a>
-  hsfhasfhhfa
+  Test 1
 
   
   ## *Usage* <a name="usage"></a>
-  ah
+  Test 2
 
   
   ## *License* <a name="license"></a>
@@ -31,14 +31,14 @@
    This means that this project is open source and can be used by anyone, even for commercial purposes.
   
   ## *Contributing* <a name="contributing"></a>
-  ahf
+  Me
 
   
   ## *Tests* <a name="tests"></a>
-  haf
+  Test
 
   
   ## *Questions* <a name="questions"></a>
   For any questions, please contact me:
-- GitHub: [GitHub Profile](https://github.com/ag)
-- Email: HAHFHH (Feel free to reach out with any additional questions)
+- GitHub: [GitHub Profile](https://github.com/Adriantutuianu)
+- Email: adriantutuianu01@gmail.com (Feel free to reach out with any additional questions)

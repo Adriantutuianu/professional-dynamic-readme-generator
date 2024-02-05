@@ -1,91 +1,67 @@
-# Module 11 Challenge: Professional README Generator
+# Dynamic README Generator
 
-## Your Task
+## Description
 
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project. 
+The Dynamic README Generator is a command-line application designed to streamline the creation of a professional README.md file. Crafting a comprehensive README is essential for effective project communication, and this tool simplifies the process by utilizing the Inquirer package.
 
-You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
+### Key Features
 
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Good README Guide](../../01-HTML-Git-CSS/04-Important/Good-README-Guide/README.md) as a reminder of everything that a high-quality, professional README should contain. 
+Effortless README Creation: Quickly generate a high-quality README by providing essential project information through a series of prompts.
 
-The application will be invoked by using the following command:
+Inquirer Package Integration: Utilize the popular Inquirer package to collect user input, ensuring a user-friendly and interactive experience.
+
+Time-Saving: Allow project creators to focus more on actual project development rather than spending excessive time on manual README creation.
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Adriantutuianu/professional-dynamic-readme-generator.git
+```
+
+Navigate to Project Directory:
+
+```bash
+cd professional-dynamic-readme-generator
+```
+
+Install Dependencies:
+
+```bash
+npm install
+```
+
+Run the Application:
 
 ```bash
 node index.js
 ```
 
-## User Story
+Follow Prompts:
+Answer the prompts to provide information about your project, including its purpose, usage, installation instructions, and more.
 
-* As a developer, I want a README generator so that I can quickly create a professional README for a new project
+README Generation:
+Once all prompts are complete, the application will dynamically generate a Generated-README.md file in the project root based on your inputs.
 
-## Acceptance Criteria
+## Usage
 
-* Create a command-line application that accepts user input.
-  * When a user is prompted for information about the application repository then a high-quality, professional README.md is generated with:
-    * The title of my project 
-    * Sections entitled:
-      * Description 
-      * Table of Contents 
-      * Installation 
-      * Usage 
-      * License 
-      * Contributing 
-      * Tests 
-      * Questions
-    * When a user enters the project title then it is displayed as the title of the README
-    * When a user enters a description, installation instructions, usage information, contribution guidelines, and test instructions then this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-    * When a user chooses a license for their application from a list of options then a badge for that license is added near the top of the README and a notice is added to the section of the README entitled **License** that explains which license the application is covered under
-    * When a user enters their GitHub username then this is added to the section of the README entitled Questions, with a link to their GitHub profile
-    * When a user enters their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions
-    * When a user clicks on the links in the **Table of Contents** then they are taken to the corresponding section of the README
+### ![Portfolio](./images/Screenshot%202readme-3.png)
 
-## Getting Started
+### ![Portfolio2](./images/Screenshot%20readme-2.png)
 
-Here are some guidelines to help you get started:
+### ![Portfolio3](./images/Screenshot-readme-1.png)
 
-* Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
+## Credits
 
-* Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
+### Project Contributors
 
-## Grading Requirements
+- [Adrian Tutuianu GitHub Profile](https://github.com/Adriantutuianu)
 
-This Challenge is graded based on the following criteria: 
+### Special Thanks
 
-### Deliverables: 20%
+- [Edx Front end Web Bootcamp](https://www.edx.org/boot-camps)
 
-* A sample README generated using the application must be submitted.
+## License
 
-* Your GitHub repository containing your application code.
-
-### Technical Acceptance Criteria: 55%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
-
-### Repository Quality: 25%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains a high-quality README with description and a link to walkthrough video.
-
-
-## Review
-
-You are required to submit the following for review:
-
-* A walkthrough video demonstrating the functionality of the application.
-
-* A sample README.md file for a project repository generated using your application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+This project is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
