@@ -3,7 +3,6 @@ function generateMarkdown(data) {
   const {
     title,
     description,
-    content,
     install,
     usage,
     license,
@@ -25,6 +24,16 @@ function generateMarkdown(data) {
     return `[GitHub Profile](https://github.com/${username})`;
   }
 
+  const tableOfContents = `
+  ## *Table of Contents*
+  1. [Installation](#installation)
+  2. [Usage](#usage)
+  3. [License](#license)
+  4. [Contributing](#contributing)
+  5. [Tests](#tests)
+  6. [Questions](#questions)
+  `;
+
   return `
   # *${title}*
 
@@ -33,15 +42,7 @@ function generateMarkdown(data) {
   ## *Description*
   ${description}
 
-  
-  ## *Table of Contents*
-  1. [Installation](#installation)
-  2. [Usage](#usage)
-  3. [License](#license)
-  4. [Contributing](#contributing)
-  5. [Tests](#tests)
-  6. [Questions](#questions)
-
+  ${tableOfContents}
   
   ## *Installation* <a name="installation"></a>
   ${install}
