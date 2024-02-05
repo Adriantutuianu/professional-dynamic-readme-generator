@@ -28,11 +28,6 @@ const questions = [
   },
   {
     type: "input",
-    message: "What is table of content?",
-    name: "content",
-  },
-  {
-    type: "input",
     message: "How do you install this project?",
     name: "install",
   },

@@ -35,18 +35,23 @@ function generateMarkdown(data) {
 
   
   ## *Table of Contents*
-  ${content}
+  1. [Installation](#installation)
+  2. [Usage](#usage)
+  3. [License](#license)
+  4. [Contributing](#contributing)
+  5. [Tests](#tests)
+  6. [Questions](#questions)
 
   
-  ## *Installation*
+  ## *Installation* <a name="installation"></a>
   ${install}
 
   
-  ## *Usage*
+  ## *Usage* <a name="usage"></a>
   ${usage}
 
   
-  ## *License*
+  ## *License* <a name="license"></a>
   This project is licensed under the ${license} license.  
   ${generateLicenseBadge(license)}
 
@@ -56,15 +61,15 @@ function generateMarkdown(data) {
        : ""
    }
   
-  ## *Contributing*
+  ## *Contributing* <a name="contributing"></a>
   ${contribution}
 
   
-  ## *Tests*
+  ## *Tests* <a name="tests"></a>
   ${tests}
 
   
-  ## *Questions*
+  ## *Questions* <a name="questions"></a>
   For any questions, please contact me:
 - GitHub: ${generateGitHubLink(githubUsername)}
 - Email: ${emailAddress} (Feel free to reach out with any additional questions)
